@@ -1,13 +1,42 @@
 body {
     font-family: "Open Sans", sans-serif;
-  }
+    margin: 0px;
+}
 
-  a:link, a:visited {
-  color: black;
-  text-decoration: unset;
-  }
+main {
+    margin: 50px;
+}
 
-  a:hover {
-  color: blue;
-  text-decoration: unset;
-  }
+header, footer {
+    background-color: gray;
+    margin: 0px;
+    padding: 15px;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header > h1 {
+    margin: 0px;
+    font-size: 2.5em;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: unset;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: unset;
+}
+
+img {
+    width: 300px;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 20px;
+}
