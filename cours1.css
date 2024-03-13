@@ -12,6 +12,10 @@ main {
     margin: 50px;
 }
 
+header {
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+
 header, footer {
     background-color: gray;
     margin: 0px;
@@ -60,4 +64,18 @@ footer > p {
 
 .placeholder > div {
     padding-left: 30px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .placeholder {
+        display: block;
+    }
+    .placeholder > div {
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+    form > textarea {
+        max-width: 80%;
+    }
 }
