@@ -39,4 +39,21 @@ img {
 footer > p {
     margin: 0px;
     padding: 20px;
+    position: fixed;
+}
+
+.placeholder {
+    display: flex;
+}
+
+.placeholder {
+    display: flex;
+}
+
+.placeholder > img {
+    padding-bottom: 20px;
+}
+
+.placeholder > p {
+    padding-left: 30px;
 }
