@@ -1,0 +1,13 @@
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  a:link, a:visited {
+  color: black;
+  text-decoration: unset;
+  }
+
+  a:hover {
+  color: blue;
+  text-decoration: unset;
+  }
