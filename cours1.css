@@ -1,6 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     margin: 0px;
+    
 }
 
 main {
@@ -39,7 +44,6 @@ img {
 footer > p {
     margin: 0px;
     padding: 20px;
-    position: fixed;
 }
 
 .placeholder {
